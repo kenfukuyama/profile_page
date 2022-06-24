@@ -1,0 +1,141 @@
+
+
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:black;
+    height: 50px;
+
+    margin-bottom: 2rem;
+    padding: 0.2rem;
+    
+    position: sticky;
+    top: 0;
+
+
+}
+
+.nav {
+    background-color: red;
+    width: 800px;
+
+    margin: 0 auto;
+    padding: 5px;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    background-color: green;
+    width: 400px;
+
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.btn {
+    background-color: rgb(23 162 184);
+    padding: 0.2rem 0.4rem;
+
+}
+
+
+
+.mainPage {
+    background-color:rebeccapurple;
+    /* height: 300px;  dont put height so it streches as height as it needs to be*/
+    width: 800px; 
+
+    margin: 0 auto;  /* this is there to center it */
+    
+
+
+    /* Three amigos of flex */
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    
+}
+
+
+.col1 {
+    background-color:darkgreen;
+
+    /* padding: 20px; */
+    margin-right: 30px;
+
+    flex: 3;
+}
+
+#profileCard {
+    background-color: #17a2b8;
+    height: 300px;
+
+    margin-bottom: 40px;
+}
+
+#education {
+    background-color:lightslategrey;
+    height: 500px;
+}
+
+
+
+.col2 {
+    background-color:yellowgreen;
+    /* padding: 20px; */
+
+    flex: 2;
+}
+
+#connectionRequestBox {
+    background-color: #2c0b88;
+    min-height:200px;
+
+    margin-bottom: 40px;
+}
+
+#ConnectionBox {
+    background-color:blue;
+    height: 300px;
+}
+
+
+.extra {
+    padding: 5rem;
+}
+
+footer {
+    background-color:grey;
+    height: 50px;
+    width: 100%;
+    border: 5px solid black;
+
+    position: fixed;
+    bottom: 0;
+
+}
+
+
+
+/* h1 {
+    background-color: red;
+    color: white;
+} */
