@@ -21,7 +21,7 @@ header {
 }
 
 .nav {
-    background-color: red;
+    background-color:crimson;
     width: 800px;
 
     margin: 0 auto;
@@ -56,6 +56,9 @@ a {
 
 }
 
+.cover {
+    background-color: red;
+}
 
 
 .mainPage {
@@ -85,10 +88,20 @@ a {
 }
 
 #profileCard {
-    background-color: #17a2b8;
+    background-color: white;
     height: 300px;
-
     margin-bottom: 40px;
+    border: 2px solid grey;
+}
+
+#cover {
+    background-color: #17a2b8;
+    height: 60px;
+}
+
+#descript-header {
+    background-color: red;
+    padding: 50px 20px 5px;
 }
 
 #education {
