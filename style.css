@@ -104,13 +104,12 @@ header {
     /* TODO this needs to be adjusted */
     width: 500px;
     margin: 0 auto;
-
-    border: 2px solid grey;
 }
 
 
 #descript-header img {
     height: 20px;
+
 }
 
 #descript-header h3 {
@@ -133,6 +132,7 @@ header {
 
 #descript-header {
     padding: 50px 25px 20px;
+    border: 2px solid grey;
 }
 
 
@@ -156,6 +156,8 @@ header {
     left: 20px;
 
     width: 80px;
+
+    overflow: hidden;
 }
 
 #descript-header .gear {
